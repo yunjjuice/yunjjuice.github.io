@@ -7,7 +7,6 @@ description: swift 기초 문법 정리
 ---
 
 
-
 ## 변수와 상수
 
 + 변수
@@ -55,17 +54,6 @@ description: swift 기초 문법 정리
       + `var temp : Float = 3`
       + `var charValue : Character = "문"` 
 
->swift
-{:.filename}
-{% highlight java %}
-// 선언과 초기화를 동시에
-var day = 7
-
-// 선언과 초기화를 분리
-var year : Int // 선언
-year = 1999 // 초기화
-{% endhighlight %}
-
 ``` swift
 // 선언과 초기화를 동시에
 var day = 7
@@ -76,6 +64,7 @@ year = 1999 // 초기화
 ```
 
 
+
 ## 타입이 다른 변수끼리의 결합
 
 + swift에서는 숫자와 문자열이 결합할 때 숫자를 자동으로 문자열로 변결하지 않기 때문에 직접 명시해주어야 한다
@@ -83,23 +72,20 @@ year = 1999 // 초기화
   + Int(정수로 바꾸고 싶은 문자열)
   + 등등
 
->swift
-{:.filename}
-{% highlight java %}
+``` swift
 var str = "hello wolrd"
 var year = 2020
 
 var welcome = str + String(year)
-{% endhighlight %}
+
+```
 
 + 문자열 템플릿
   + 변수나 상수의 값을 문자열 속에 포함시키는 방법
   + 정수나 실수 등 문자열이 나니 값도 변환 과정 없이 사용할 수 있도록 스위프트가 제공하는 기능
   + `\(변수명)`
 
->swift
-{:.filename}
-{% highlight java %}
+``` swift
 // 상수와 변수를 정의
 let name = "경자년"
 let year = 2020
@@ -108,7 +94,7 @@ let month = 4
 // 문자열 템플릿을 사용한 문자열 결합
 let thisMonth = "지금은 \(year)년 \(name), \(month)입니다."
 print(thisMonth)
-{% endhighlight %}
+```
 
 
 
