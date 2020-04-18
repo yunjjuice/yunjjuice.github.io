@@ -66,6 +66,15 @@ var year : Int // 선언
 year = 1999 // 초기화
 {% endhighlight %}
 
+``` swift
+// 선언과 초기화를 동시에
+var day = 7
+
+// 선언과 초기화를 분리
+var year : Int // 선언
+year = 1999 // 초기화
+```
+
 
 ## 타입이 다른 변수끼리의 결합
 
