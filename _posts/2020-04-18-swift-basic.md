@@ -13,11 +13,11 @@ description: swift 기초 문법 정리
 + 변수
   - 값 변경 가능
   - 변수 값 변경 시 처음 저장했던 값과 일치하는 타입으로만 변경 가능
-  - ` var ` 키워드 사용
+  - `var` 키워드 사용
 
 + 상수
   - 값 변경 불가능
-  - ` let ` 키워드 사용
+  - `let` 키워드 사용
 
 
 
@@ -78,7 +78,7 @@ year = 1999 // 초기화
 {:.filename}
 {% highlight java %}
 var str = "hello wolrd"
-var year = "2020"
+var year = 2020
 
 var welcome = str + String(year)
 {% endhighlight %}
@@ -97,7 +97,7 @@ let year = 2020
 let month = 4
 
 // 문자열 템플릿을 사용한 문자열 결합
-let thisMonth = "지금은 \\(year)년 \\(name), \\(month)입니다."
+let thisMonth = "지금은 \(year)년 \(name), \(month)입니다."
 print(thisMonth)
 {% endhighlight %}
 
