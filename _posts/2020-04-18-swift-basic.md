@@ -8,25 +8,20 @@ description: swift 기초 문법 정리
 
 
 
-### 변수와 상수
+## 변수와 상수
 
 + 변수
-
   - 값 변경 가능
-
   - 변수 값 변경 시 처음 저장했던 값과 일치하는 타입으로만 변경 가능
-
-  - ``` var ``` 키워드 사용
+  - ` var ` 키워드 사용
 
 + 상수
-
   - 값 변경 불가능
-
-  - ``` let ``` 키워드 사용
-
+  - ` let ` 키워드 사용
 
 
-### 자료형
+
+## 자료형
 
 + Int
   + 부호 있는 정수값 저장
@@ -46,7 +41,7 @@ description: swift 기초 문법 정리
 
 
 
-### 타입 추론과 타입 어노테이션
+## 타입 추론과 타입 어노테이션
 
 + 타입 추론
   + 변수나 상수를 초기화할 때 입력된 값을 분석하여 변수에 적절한 타입을 컴파일러가 스스로 추론하는 기능
@@ -61,25 +56,18 @@ description: swift 기초 문법 정리
       + `var charValue : Character = "문"` 
 
 >swift
->{:.filename}
->{% highlight java %}
->// 선언과 초기화를 동시에
->
->var day = 7
->
->
->
->// 선언과 초기화를 분리
->
->var year : Int // 선언
->
->year = 1999 // 초기화
->
->{% endhighlight %}
+{:.filename}
+{% highlight java %}
+// 선언과 초기화를 동시에
+var day = 7
+
+// 선언과 초기화를 분리
+var year : Int // 선언
+year = 1999 // 초기화
+{% endhighlight %}
 
 
-
-### 타입이 다른 변수끼리의 결합
+## 타입이 다른 변수끼리의 결합
 
 + swift에서는 숫자와 문자열이 결합할 때 숫자를 자동으로 문자열로 변결하지 않기 때문에 직접 명시해주어야 한다
   + String(문자열로 바꾸고 싶은 정수값 또는 변수)
@@ -87,17 +75,13 @@ description: swift 기초 문법 정리
   + 등등
 
 >swift
->{:.filename}
->{% highlight java %}
->var str = "hello wolrd"
->
->var year = "2020"
->
->
->
->var welcome = str + String(year)
->
->{% endhighlight %}
+{:.filename}
+{% highlight java %}
+var str = "hello wolrd"
+var year = "2020"
+
+var welcome = str + String(year)
+{% endhighlight %}
 
 + 문자열 템플릿
   + 변수나 상수의 값을 문자열 속에 포함시키는 방법
@@ -105,32 +89,23 @@ description: swift 기초 문법 정리
   + `\(변수명)`
 
 >swift
->{:.filename}
->{% highlight java %}
->
->// 상수와 변수를 정의
->
->let name = "경자년"
->
->let year = 2020
->
->let month = 4
->
->
->
->// 문자열 템플릿을 사용한 문자열 결합
->
->let thisMonth = "지금은 \\(year)년 \\(name), \\(month)입니다."
->
->print(thisMonth)
->
->{% endhighlight %}
+{:.filename}
+{% highlight java %}
+// 상수와 변수를 정의
+let name = "경자년"
+let year = 2020
+let month = 4
+
+// 문자열 템플릿을 사용한 문자열 결합
+let thisMonth = "지금은 \\(year)년 \\(name), \\(month)입니다."
+print(thisMonth)
+{% endhighlight %}
 
 
 
-### 연산자
+## 연산자
 
-#### 산술 연산자
+### 산술 연산자
 
 |    구분     | 연산자 | 사용 예 | 의미                                     |
 | :---------: | :----: | :-----: | ---------------------------------------- |
@@ -143,7 +118,7 @@ description: swift 기초 문법 정리
 
 
 
-#### 비교 연산자
+### 비교 연산자
 
 | 연산자 | 사용 예 | 의미                                              |
 | :----: | :-----: | ------------------------------------------------- |
@@ -156,7 +131,7 @@ description: swift 기초 문법 정리
 
 
 
-#### 논리 연산자
+### 논리 연산자
 
 |  연산자   | 사용 예  | 의미                                                         |
 | :-------: | :------: | ------------------------------------------------------------ |
@@ -166,7 +141,7 @@ description: swift 기초 문법 정리
 
 
 
-#### 범위 연산자
+### 범위 연산자
 
 + 스위프트에서 제공하는 독특한 연산자
 + 닫힌 범위 연산자
@@ -182,7 +157,7 @@ description: swift 기초 문법 정리
 
 
 
-#### 대입 연산자
+### 대입 연산자
 
 | 대입연산자 | 사용 예시 | 의미              |
 | ---------- | --------- | ----------------- |
@@ -200,6 +175,6 @@ description: swift 기초 문법 정리
 
 
 
-#### 증감 연산자 (사용하지 않음)
+### 증감 연산자 (사용하지 않음)
 
 + 스위프트에서는 지원하지 않음
