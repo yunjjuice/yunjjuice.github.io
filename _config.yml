@@ -26,6 +26,7 @@ author:
   linkedin: 
   bio: 뿌셔뿌셔
   email_md5: 
+  profile: /assets/profile.jpg
 
 rss_path: feed.xml
 categories_path: categories.html
