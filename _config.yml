@@ -18,7 +18,7 @@ defaults:
 
 description: Stylish Jekyll Theme
 author:
-  name: yunjjuice
+  name: yunju
   email: yeomju311@naver.com
   github: yeomju311
   twitter: 
@@ -26,7 +26,7 @@ author:
   linkedin: 
   bio: 뿌셔뿌셔
   email_md5: 
-  profile: /assets/profile.jpg
+  profile: ../assets/profile.jpg
 
 rss_path: feed.xml
 categories_path: categories.html
