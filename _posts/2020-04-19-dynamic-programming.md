@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title: "DP 동적 계획법"
 date: 2020-04-19 23:38:06
 tags: algorithm
