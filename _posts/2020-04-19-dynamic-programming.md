@@ -1,9 +1,9 @@
 ---
-layout: posts
 title: "DP 동적 계획법"
 date: 2020-04-19 23:38:06
+categories : [Algorithm]
 tags: algorithm
-description: 동적 계획법 정리
+excerpt: "동적 계획법 정리"
 ---
 
 ## 점화식

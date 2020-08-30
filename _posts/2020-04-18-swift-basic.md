@@ -1,9 +1,9 @@
 ---
-layout: posts
 title: "swift 기초"
 date: 2020-04-18 21:38:06
-tags: ios
-description: swift 기초 문법 정리
+categories : [iOS]
+tags: iOS
+excerpt: "swift 기초 문법 정리"
 ---
 
 
