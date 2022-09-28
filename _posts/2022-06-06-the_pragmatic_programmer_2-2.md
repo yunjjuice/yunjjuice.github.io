@@ -1,5 +1,5 @@
 ---
-title: "실용주의 프로그래머 - 2장. 실용주의 접근법"
+title: "실용주의 프로그래머 - 2장. 실용주의 접근법 2"
 categories : [study]
 tags: [study]
 excerpt: ""
